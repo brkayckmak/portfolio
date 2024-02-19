@@ -186,11 +186,12 @@
 
   .summary-img {
     max-width: 80%;
+  }
 }
 
 @media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
   html {
-    font-size: 20%;
+    font-size: 12%;
   }
 
   .summary-img {
