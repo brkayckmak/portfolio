@@ -184,3 +184,35 @@
     font-size: 40%;
   }
 }
+
+@media (max-width: 34em) {
+  html {
+    font-size: 40%;
+  }
+
+  .summary-img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 23em) {
+  html {
+    font-size: 20%;
+  }
+
+  .summary-img {
+    max-width: 70%;
+  }
+
+  .education--logo img {
+    width: 20rem;
+  }
+
+  .work--logo img {
+    width: 20rem;
+  }
+
+  .project--accordion {
+    line-height: 3.6rem;
+  }
+}
