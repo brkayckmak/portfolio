@@ -1,0 +1,186 @@
+@media (max-width: 113em) {
+  .container {
+    max-width: 70vw;
+  }
+}
+
+@media (max-width: 97em) {
+  html {
+    font-size: 55%;
+  }
+
+  .name {
+    font-size: 3.2rem;
+  }
+
+  .container {
+    max-width: 70vw;
+  }
+
+  .education-context {
+    grid-template-columns: 1fr;
+  }
+
+  #education--logo--agh {
+    grid-row: 4/5;
+  }
+
+  .education--logo img {
+    width: 35rem;
+  }
+
+  .degree {
+    font-size: 3.2rem;
+  }
+
+  .degree--description {
+    font-size: 2.2rem;
+  }
+
+  .education--description .papers li {
+    font-size: 2rem;
+  }
+
+  .work-context {
+    grid-template-columns: 1fr;
+  }
+
+  .work--logo img {
+    width: 35rem;
+  }
+
+  #work--logo--huawei {
+    grid-row: 4/5;
+  }
+
+  .company-name {
+    font-size: 3.2rem;
+  }
+
+  .job-years {
+    font-size: 1.8rem;
+  }
+
+  .work-text {
+    font-size: 2.2rem;
+    line-height: 1.7;
+  }
+
+  .job-desc-list {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 85em) {
+  .main-part {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .dynamic-text.second-text {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 76em) {
+  .main-part {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .section-summary {
+    max-height: fit-content;
+  }
+
+  .section-summary-img {
+    justify-self: center;
+    padding-bottom: 4.8rem;
+  }
+
+  .section-pages {
+    font-size: 2.4rem;
+    position: relative;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .pages-list {
+    width: 100%;
+    justify-items: center;
+    padding-bottom: 4.8rem;
+  }
+
+  .section-pages ul li {
+    width: inherit;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 71em) {
+  html {
+    font-size: 50%;
+  }
+
+  .name {
+    font-size: 3.6rem;
+  }
+
+  .section-summary {
+    gap: 1.2rem;
+    line-height: 0.2rem;
+  }
+}
+
+@media (max-width: 71em) {
+  .section-summary-text,
+  .section-summary-text-dynamic,
+  .section-summary-current-job {
+    font-size: 2.4rem;
+  }
+
+  .contact-container {
+    padding-bottom: 7.2rem;
+    width: 90%;
+  }
+
+  .morpheus {
+    text-align: center;
+  }
+
+  .choices {
+    grid-template-columns: 1fr;
+    row-gap: 7.2rem;
+    padding-top: 7.2rem;
+  }
+}
+
+@media (max-width: 43em) {
+  html {
+    font-size: 45%;
+  }
+
+  .container {
+    max-width: 80vw;
+  }
+
+  .education--logo img {
+    width: 30rem;
+  }
+
+  .work--logo img {
+    width: 30rem;
+  }
+
+  .project-img img {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 40%;
+  }
+}
