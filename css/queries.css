@@ -183,15 +183,45 @@
   html {
     font-size: 40%;
   }
-}
-
-@media (max-width: 34em) {
-  html {
-    font-size: 40%;
-  }
 
   .summary-img {
     max-width: 80%;
+}
+
+@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    font-size: 20%;
+  }
+
+  .summary-img {
+    max-width: 70%;
+  }
+
+  .education--logo img {
+    width: 20rem;
+  }
+
+  .work--logo img {
+    width: 20rem;
+  }
+
+  .project--accordion {
+    line-height: 3.6rem;
+  }
+
+  .container {
+    padding: 0;
+    max-width: 95vw;
+  }
+
+  .main-part,
+  .education-context,
+  .work-context {
+    padding: 7.2rem 0;
+  }
+
+  .projects-context {
+    padding: 7.2rem 1rem;
   }
 }
 
