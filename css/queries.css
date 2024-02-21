@@ -191,7 +191,7 @@
 
 @media screen and (max-device-width: 38em) {
   html {
-    font-size: 12%;
+    font-size: 35%;
   }
 
   .summary-img {
@@ -228,7 +228,7 @@
 
 @media screen and (max-device-width: 23em) {
   html {
-    font-size: 20%;
+    font-size: 35%;
   }
 
   .summary-img {
@@ -267,6 +267,6 @@
 
 @media screen and (max-device-width: 8.5em) {
   html {
-    font-size: 12%;
+    font-size: 35%;
   }
 }
