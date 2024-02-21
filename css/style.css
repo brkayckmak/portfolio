@@ -66,10 +66,6 @@ h1 {
   justify-content: center;
 }
 
-/* ----------------------------------
-MAIN PAGE
----------------------------------- */
-
 /* NAME SECTION */
 
 .name-tag {
@@ -87,6 +83,10 @@ MAIN PAGE
   font-size: 2.8rem;
   font-weight: 400;
 }
+
+/* ----------------------------------
+MAIN PAGE
+---------------------------------- */
 
 .main-part {
   background-color: #141414;

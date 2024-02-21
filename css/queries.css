@@ -9,10 +9,6 @@
     font-size: 55%;
   }
 
-  .name {
-    font-size: 3.2rem;
-  }
-
   .container {
     max-width: 70vw;
   }
@@ -143,7 +139,6 @@
 
   .contact-container {
     padding-bottom: 7.2rem;
-    width: 90%;
   }
 
   .morpheus {
@@ -179,16 +174,6 @@
   }
 }
 
-@media (max-width: 34em) {
-  html {
-    font-size: 40%;
-  }
-
-  .summary-img {
-    max-width: 80%;
-  }
-}
-
 @media screen and (max-device-width: 38em) {
   html {
     font-size: 35%;
@@ -204,11 +189,11 @@
   }
 
   .education--logo img {
-    width: 20rem;
+    width: 30rem;
   }
 
   .work--logo img {
-    width: 20rem;
+    width: 30rem;
   }
 
   .project--accordion {
@@ -219,7 +204,7 @@
   .education-context,
   .work-context,
   .contact-context {
-    padding: 7.2rem 0;
+    padding: 7.2rem 0 4.8rem 0;
   }
 
   .projects-context {
