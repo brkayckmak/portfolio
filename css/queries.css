@@ -211,13 +211,14 @@
   }
 
   .container {
-    padding: 0;
+    padding: 0 1.6rem 3.2rem 1.6rem;
     max-width: 95vw;
   }
 
   .main-part,
   .education-context,
-  .work-context {
+  .work-context,
+  .contact-context {
     padding: 7.2rem 0;
   }
 
@@ -250,7 +251,7 @@
 
 @media screen and (max-device-width: 14em) {
   .container {
-    padding: 0;
+    padding: 0 1.6rem 3.2rem 1.6rem;
     max-width: 95vw;
   }
 
