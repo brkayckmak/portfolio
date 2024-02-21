@@ -45,3 +45,17 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// CLICK ALL OF THE LIST ELEMENTS AREA TO REDIRECT
+document.addEventListener("DOMContentLoaded", function () {
+  var clickableItems = document.querySelectorAll(".pages-list li");
+
+  clickableItems.forEach(function (item) {
+    item.addEventListener("click", function () {
+      var link = item.querySelector("a");
+      if (link) {
+        link.click();
+      }
+    });
+  });
+});

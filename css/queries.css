@@ -194,6 +194,11 @@
     font-size: 35%;
   }
 
+  .container {
+    padding: 0 1.6rem 3.2rem 1.6rem;
+    max-width: 95vw;
+  }
+
   .summary-img {
     max-width: 70%;
   }
@@ -208,11 +213,6 @@
 
   .project--accordion {
     line-height: 3.6rem;
-  }
-
-  .container {
-    padding: 0 1.6rem 3.2rem 1.6rem;
-    max-width: 95vw;
   }
 
   .main-part,
@@ -257,7 +257,8 @@
 
   .main-part,
   .education-context,
-  .work-context {
+  .work-context,
+  .contact-context {
     padding: 7.2rem 0;
   }
 
