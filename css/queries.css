@@ -189,7 +189,7 @@
   }
 }
 
-@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (max-device-width: 38em) {
   html {
     font-size: 12%;
   }
@@ -226,7 +226,7 @@
   }
 }
 
-@media (max-width: 23em) {
+@media screen and (max-device-width: 23em) {
   html {
     font-size: 20%;
   }
@@ -248,7 +248,7 @@
   }
 }
 
-@media (max-width: 14em) {
+@media screen and (max-device-width: 14em) {
   .container {
     padding: 0;
     max-width: 95vw;
@@ -265,7 +265,7 @@
   }
 }
 
-@media (max-width: 8.5em) {
+@media screen and (max-device-width: 8.5em) {
   html {
     font-size: 12%;
   }
