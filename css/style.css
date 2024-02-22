@@ -66,6 +66,10 @@ h1 {
   justify-content: center;
 }
 
+a:hover {
+  cursor: none;
+}
+
 /* NAME SECTION */
 
 .name-tag {
