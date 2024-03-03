@@ -507,11 +507,21 @@ PROJECTS PAGE
   max-width: 70%;
 }
 
-.project-desc {
-  padding: 3.2rem 0 1.2rem 0;
+.project-desc,
+.techs--header,
+.techs--items {
+  padding: 3.2rem 0 1.6rem 0;
   font-size: 2rem;
   letter-spacing: 1.1px;
   grid-column: 1/-1;
+}
+
+.techs--header {
+  padding: 0;
+}
+
+.techs--items {
+  padding: 0 0 1.6rem 0;
 }
 
 .github-link {
