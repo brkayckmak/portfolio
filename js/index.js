@@ -46,9 +46,23 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-// CLICK ALL OF THE LIST ELEMENTS AREA TO REDIRECT
+// CLICK ALL OF THE LIST ELEMENTS AREA TO REDIRECT IN INDEX PAGE
 document.addEventListener("DOMContentLoaded", function () {
   var clickableItems = document.querySelectorAll(".pages-list li");
+
+  clickableItems.forEach(function (item) {
+    item.addEventListener("click", function () {
+      var link = item.querySelector("a");
+      if (link) {
+        link.click();
+      }
+    });
+  });
+});
+
+// CLICK ALL OF THE ELEMENTS AREA TO REDIRECT IN CONTACT PAGE
+document.addEventListener("DOMContentLoaded", function () {
+  var clickableItems = document.querySelectorAll(".choice-pill");
 
   clickableItems.forEach(function (item) {
     item.addEventListener("click", function () {
