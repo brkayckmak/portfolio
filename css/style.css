@@ -323,8 +323,15 @@ EDUCATION PAGE
   color: #339af0;
 }
 
-.degree--description span a {
-  color: inherit;
+.link:link,
+.link:visited {
+  color: white;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #339af0;
 }
 
 .education--description .papers {
