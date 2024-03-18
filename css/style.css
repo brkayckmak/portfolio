@@ -523,6 +523,13 @@ PROJECTS PAGE
   grid-column: 1/-1;
 }
 
+.project-desc-note {
+  padding: 0 0 1.6rem 0;
+  font-size: 1.6rem;
+  letter-spacing: 1.1px;
+  grid-column: 1/-1;
+}
+
 .techs--header {
   padding: 0;
 }
