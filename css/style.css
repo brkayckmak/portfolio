@@ -58,7 +58,7 @@ h1 {
 }
 
 .container {
-  max-width: 60vw;
+  max-width: 70vw;
   padding: 0 3.2rem 3.2rem 3.2rem;
   margin: 0 auto;
   display: flex;
@@ -213,6 +213,9 @@ MAIN PAGE
 .section-pages ul .li-work-experience:hover {
   box-shadow: 12px 12px 2px 1px #b197fc;
 }
+.section-pages ul .li-skills:hover {
+  box-shadow: 12px 12px 2px 1px #66d9e8;
+}
 .section-pages ul .li-projects:hover {
   box-shadow: 12px 12px 2px 1px #0ca678;
 }
@@ -236,6 +239,11 @@ MAIN PAGE
 #link-work-experience:hover,
 #link-work-experience:active {
   color: #b197fc;
+}
+
+#link-skills:hover,
+#link-skills:active {
+  color: #66d9e8;
 }
 
 #link-projects:hover,
@@ -446,6 +454,133 @@ WORK EXPERIENCE PAGE
 
 .job-desc-list p a {
   color: inherit;
+}
+
+/* ----------------------------------
+SKILLS PAGE
+---------------------------------- */
+
+.skills-container {
+  padding-bottom: 7.2rem;
+}
+
+.skills-context {
+  background-color: #141414;
+  margin-top: 4.2rem;
+  padding: 7.4rem 3.2rem 7.4rem 3.2rem;
+  border: 1px white solid;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10rem;
+  box-shadow: 0 0 3.2rem rgba(116, 193, 252, 0.2);
+}
+
+.skills--heading {
+  justify-self: center;
+  font-size: 4.4rem;
+  text-transform: uppercase;
+  grid-column: 1/-1;
+}
+
+.technical-sub-skill {
+  border: 1px #868e96 solid;
+  border-radius: 5px;
+  margin: 2.4rem 3.2rem;
+
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+}
+
+.technical-type {
+  grid-column: 1/-1;
+  align-self: center;
+  font-size: 2.4rem;
+  padding: 1.6rem 0rem 4.2rem 1.6rem;
+}
+
+.technical-skill-list {
+  list-style: none;
+  padding: 0 2.4rem 2.4rem 3.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  column-gap: 10rem;
+  row-gap: 3rem;
+}
+
+.programming-framework {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1.2rem;
+  column-gap: 1rem;
+}
+
+.programming-lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.programming-lang-logo {
+  width: 7.2rem;
+}
+
+.programming-lang-name {
+  font-size: 2rem;
+}
+
+.programming-framework-logo {
+  width: 6.2rem;
+  padding-left: 1rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.programming-framework-logo[alt="django-logo"] {
+  width: 5.2rem;
+}
+
+.programming-framework-logo[alt="nodejs-logo"] {
+  width: 5.8rem;
+}
+
+.programming-framework-logo[alt="mysql-logo"] {
+  width: 7.2rem;
+}
+
+#html,
+#css {
+  grid-column: 1/-1;
+}
+
+.programming-framework-name {
+  font-size: 1.8rem;
+}
+
+.programming-framework-logo[alt="flask-logo"],
+.programming-lang-logo[alt="db-logo"],
+.programming-lang-logo[alt="api-logo"],
+.programming-framework-logo[alt="rest-api-logo"],
+.programming-framework-logo[alt="mysql-logo"] {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+hr {
+  grid-column: 1/-1;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #adb5bd;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /* ----------------------------------

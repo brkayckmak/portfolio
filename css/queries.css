@@ -128,6 +128,10 @@
     gap: 1.2rem;
     line-height: 0.2rem;
   }
+
+  .skills-context {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 71em) {
