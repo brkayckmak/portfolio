@@ -215,6 +215,14 @@
   .projects-context {
     padding: 7.2rem 1rem;
   }
+
+  .technical-skill-list {
+    column-gap: 5rem;
+  }
+
+  .technical-sub-skill {
+    margin: 2.4rem;
+  }
 }
 
 @media screen and (max-device-width: 23em) {
