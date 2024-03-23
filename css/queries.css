@@ -237,6 +237,14 @@
   .project--accordion {
     line-height: 3.6rem;
   }
+
+  .technical-skill-list {
+    column-gap: 4rem;
+  }
+
+  .technical-sub-skill {
+    margin: 2.4rem;
+  }
 }
 
 @media screen and (max-device-width: 14em) {
