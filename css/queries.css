@@ -207,7 +207,8 @@
   .main-part,
   .education-context,
   .work-context,
-  .contact-context {
+  .contact-context,
+  .skills-context {
     padding: 7.2rem 0 4.8rem 0;
   }
 
@@ -247,7 +248,8 @@
   .main-part,
   .education-context,
   .work-context,
-  .contact-context {
+  .contact-context,
+  .skills-context {
     padding: 7.2rem 0;
   }
 
