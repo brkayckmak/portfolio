@@ -247,7 +247,7 @@
   }
 }
 
-@media screen and (max-device-width: 14em) {
+@media screen and (max-device-width: 16em) {
   .container {
     padding: 0 1.6rem 3.2rem 1.6rem;
     max-width: 95vw;
@@ -263,6 +263,14 @@
 
   .projects-context {
     padding: 7.2rem 1rem;
+  }
+
+  .technical-skill-list {
+    column-gap: 1.8rem;
+  }
+
+  .technical-sub-skill {
+    margin: 2rem;
   }
 }
 
