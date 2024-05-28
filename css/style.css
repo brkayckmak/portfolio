@@ -286,7 +286,7 @@ EDUCATION PAGE
 
 .education--logo {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -390,7 +390,7 @@ WORK EXPERIENCE PAGE
 
 .work--logo {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 

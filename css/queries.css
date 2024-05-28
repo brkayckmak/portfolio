@@ -13,10 +13,6 @@
     max-width: 70vw;
   }
 
-  .education-context {
-    grid-template-columns: 1fr;
-  }
-
   #education--logo--agh {
     grid-row: 4/5;
   }
@@ -37,16 +33,8 @@
     font-size: 2rem;
   }
 
-  .work-context {
-    grid-template-columns: 1fr;
-  }
-
   .work--logo img {
     width: 35rem;
-  }
-
-  #work--logo--huawei {
-    grid-row: 4/5;
   }
 
   .company-name {
@@ -70,6 +58,18 @@
 @media (max-width: 85em) {
   .main-part {
     grid-template-columns: 3fr 2fr;
+  }
+
+  .education-context {
+    grid-template-columns: 1fr;
+  }
+
+  .work-context {
+    grid-template-columns: 1fr;
+  }
+
+  #work--logo--huawei {
+    grid-row: 4/5;
   }
 
   .dynamic-text.second-text {
