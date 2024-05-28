@@ -13,10 +13,6 @@
     max-width: 70vw;
   }
 
-  #education--logo--agh {
-    grid-row: 4/5;
-  }
-
   .education--logo img {
     width: 35rem;
   }
@@ -62,6 +58,10 @@
 
   .education-context {
     grid-template-columns: 1fr;
+  }
+
+  #education--logo--agh {
+    grid-row: 4/5;
   }
 
   .work-context {
